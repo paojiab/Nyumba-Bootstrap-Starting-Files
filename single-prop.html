@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyumba - Property</title>
+    
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- bootstrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- single property section -->
+    <section id="property-single">
+        <div class="container property-single mt-4">
+            <div class="row">
+                <div class="col-lg-8">
+                  <div class="row">
+                    <div class="col-6">
+                      <button class="btn btn-light"><i class="bi bi-x-lg"></i></button>
+                    </div>
+                    <div class="col-6 text-end">
+                      
+                      <button class="btn btn-light"><i class="bi bi-heart"></i></button>
+                      
+                      <button class="btn btn-light"><i class="bi bi-share"></i></button>         
+                     
+                      <button class="btn btn-light"><i class="bi bi-three-dots"></i></button>          
+                    </div>
+                  </div>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          
+                          <div class="carousel-item active position-relative">
+                            <div class="position-absolute" style="top: 15px; left: 10px;">
+                              
+                                <button class="d-block btn btn-light btn-sm fst-italic">Promoted..</button>
+                                <button class="btn btn-light btn-sm mt-1"><i class="bi bi-shield-fill-check text-success"></i>
+                                  Verified</button>
+                            </div>
+                            <img src="./images/hero-img.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/hero-img.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/hero-img.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <table class="table table-bordered border-secondary text-center">
+                        <thead>
+                        <tr>
+                        <th scope="col">
+                          <button class="btn btn-light bg-white border-0">Gallery</button>
+                        </th>
+                        <th scope="col">
+                          <button class="btn btn-light bg-white border-0">Map</button>
+                        </th>
+                        <th scope="col"><button class="btn btn-light bg-white border-0">Street View</button></th>
+                      </tr>
+                    </thead>
+                      </table>
+
+                      <!-- single-details -->
+                      <div class="card border-success mb-4">
+                        <div class="card-body">
+                            <h4>1 bdrm House in Entebbe for Rent</h4>
+                            
+                            <p><i class="bi bi-geo-alt-fill"></i> Entebbe, Division B, Kiwafu, Kiwafu East</p>
+                            <p><i class="bi bi-clock"></i> Updated 3 hours ago</p>
+
+                            <div class="row text-center">
+                              <div class="col">
+                                <h3>1</h3>
+                                 
+                            <p><i class="fa fa-bed" aria-hidden="true"></i> Bedroom</p>
+                              </div>
+                              <div class="col">
+                                <h3>3</h3>
+              
+                                <p><i class="fa fa-bath" aria-hidden="true"></i> Bathrooms</p>
+                              </div>
+                            </div>
+                            
+                            <!-- <hr> -->
+                            <table class="table">
+                              <tr>
+                                <th scope="col">Property Type</th>
+                                <td class="text-end">Apartment</td>
+                              </tr>
+                              <tr>
+                                <th scope="col">Pets</th>
+                                <td class="text-end">Allowed</td>
+                              </tr>
+                              <tr>
+                                <th scope="col">Smoking</th>
+                                <td class="text-end">Allowed</td>
+                              </tr>
+                              <tr>
+                                <th scope="col">Parties</th>
+                                <td class="text-end">Not Allowed</td>
+                              </tr>
+                              <tr>
+                                <th scope="col">Parking</th>
+                                <td class="text-end">Yes</td>
+                              </tr>
+                              <tr>
+                                <th scope="col">Furnished</th>
+                                <td class="text-end">Yes</td>
+                              </tr>
+                              <tr>
+                                <th scope="col">Property Size</th>
+                                <td class="text-end">500 sqft</td>
+                              </tr>
+                              <tr>
+                                <th scope="col">Year Built</th>
+                                <td class="text-end">2004</td>
+                              </tr>
+                              <tr>
+                                <th scope="col">Last Renovation</th>
+                                <td class="text-end">2020</td>
+                              </tr>
+                              <tr>
+                                <th scope="col">Swimming Pool</th>
+                                <td class="text-end">No</td>
+                              </tr>
+                              <tr>
+                                <th scope="col">Gym</th>
+                                <td class="text-end">No</td>
+                              </tr>
+                              <tr>
+                                <th scope="col">Security</th>
+                                <td class="text-end">Doorman</td>
+                              </tr>
+                            </table>
+<div class="mt-5 mb-5">
+  <h4>NEARBY SCHOOLS</h4>
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th scope="col">Name</th>
+                                  <th scope="col">Level</th>
+                                  <th scope="col">Distance</th>
+                                </tr>
+                                <tr>
+                                  <td>Entebbe Secondary School</td>
+                                  <td>
+                                    Secondary
+                                  </td>
+                                  <td>
+                                    0.1 miles
+                                  </td>
+                                </tr>
+                                
+                              </thead>
+                            </table>
+</div>
+                            
+                            <h4 class="mt-5 d-inline">COMMUTE</h4>
+                            <a href="" class="d-inline ps-1 text-secondary">Change Destination</a>
+                            <div>
+                            <p class="d-inline">Destination: <span><h6 class="d-inline">Entebbe International Airport</h6></span></p>
+                          </div>
+                            <div class="row text-center">
+                              <div class="col-3">
+                                <h3><i class="bi bi-car-front"></i></h3>
+                            <p>12 min by car</p>
+                              </div>
+                              <div class="col-3">
+                                <h3><i class="bi bi-train-freight-front"></i></h3>
+                                <p>34 min by transit</p>
+                              </div>
+                              <div class="col-3">
+                                <h3><i class="bi bi-bicycle"></i></h3>
+                                <p>22 min by bike</p>
+                              </div>
+                              
+                              <div class="col-3">
+                                <h3><i class="bi bi-egg"></i><i class="bi bi-egg"></i></h3>
+                                <p>1h 10m on foot</p>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-success card-body mb-4">
+                        <h3>Ush 30,000,000 <spans style ="font-size: 1.4rem;">per month</span></h3>
+                            <!-- <button class="btn btn-outline-success mt-2">Save</button> -->
+                    </div>
+                    
+<div class="card border-success mb-4">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card-img text-center">
+                    <img src="./images/profile.jpg" alt="" class="img-fluid w-50" style="border-radius: 100px;">
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <h6>Isaac Kyamagero</h6>
+                <p class="text-success fst-italic">Verified Landlord <i class="bi bi-check"></i></p>
+            </div>
+        </div>
+        
+        <button class="btn btn-success w-100 mt-2">Connect <i class="bi bi-emoji-smile"></i></button>
+    </div>
+</div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end single property section -->
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+        <!-- font awesome icons -->
+        <script src="https://kit.fontawesome.com/4300a2c862.js" crossorigin="anonymous"></script>
+</body>
+</html>
